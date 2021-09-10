@@ -32,7 +32,7 @@ public class Main {
 		}
 		
 		System.out.println("Student list (reverse ordered by name)");
-		Collections.sort(fl, new FruitComparatorDesc());
+		Collections.sort(fl, new FruitComparatorDesc()); // sort in descending order
 		for (int i = 0; i < fl.size(); i ++) {
 			System.out.println(fl.get(i).toString());
 		}
